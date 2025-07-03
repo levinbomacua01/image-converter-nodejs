@@ -1,0 +1,18 @@
+/* Custom styles to complement Tailwind */
+#bulkPreviewContainer img {
+    max-height: 80px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.drag-over {
+    border-color: #3b82f6 !important;
+    background-color: #f0f7ff;
+}
+
+#resultsContainer img {
+    max-height: 200px;
+    object-fit: contain;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+}
